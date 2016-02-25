@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<request method="tax.get">
+	<tax_id>%s(taxIdOptional)</tax_id>
+</request>
