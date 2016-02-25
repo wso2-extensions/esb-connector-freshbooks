@@ -1,0 +1,8 @@
+<updateTax>
+	<arbitraryPassword>%s(arbitraryPassword)</arbitraryPassword>
+	<apiUrl>%s(apiUrl)</apiUrl>
+	<authenticationToken>%s(authenticationToken)</authenticationToken>
+	<taxId>%s(taxIdOptional)</taxId>
+	<name>%s(taxNameUpdated)</name>
+	<compound>1</compound>
+</updateTax>
