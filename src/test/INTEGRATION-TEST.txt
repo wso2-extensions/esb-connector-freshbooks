@@ -77,7 +77,7 @@ Steps to follow in setting integration test.
         9)  taxNameUpdated       	- A unique and non-existing name as the tax name to be used for updating the created 						tax.
         10) uploadFileName       	- The name of the file to be uploaded as the attachment in creating a receipt.
         11) updatedFile          	- The name of the file to be uploaded as the attachment in updating a receipt.
-	12)	projectName		- A valid string as the new project name.
+	12) projectName		- A valid string as the new project name.
 	13) projectBillMethod	 	- A method of billing for the project. Always use 'task-rate' for this.
 	14) projectNameOptional  	- A valid string as the new project name. Use a different name than that is used for 						'projectBillMethod'.
 	15) projectRate          	- A valid integer as the billing rate for the project.
