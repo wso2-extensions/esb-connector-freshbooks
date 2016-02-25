@@ -69,33 +69,33 @@ Steps to follow in setting integration test.
         1)  apiUrl               	- API URL to which the service calls are made. e.g. https://virasoft.recurly.com
         2)  authenticationToken 	- The authentication token retrieved in the Step b - 2.
         3)  arbitraryPassword    	- The arbitrary password as explained in Step b - 3. (Default value is x).
-        4)  staffId              	- The staff ID (user ID) of an existing staff member which is retrieved in Step d above.Most of the time the value of this is '1'.
+        4)  staffId              	- The staff ID (user ID) of an existing staff member which is retrieved in Step d abo						.Most of the time the value of this is '1'.
         5)  categoryName         	- A unique and non-existing name as the category name to be created.
-        6)  categoryNameUpdated  	- A unique and non-existing name as the category name to be used for updating the created category.
+        6)  categoryNameUpdated  	- A unique and non-existing name as the category name to be used for updating the 						created category.
         7)  taxName             	- A unique and non-existing name as a tax name to be created.
         8)  taxNameOptional     	- A unique and non-existing name as a tax name to be created.
-        9)  taxNameUpdated       	- A unique and non-existing name as the tax name to be used for updating the created tax.
+        9)  taxNameUpdated       	- A unique and non-existing name as the tax name to be used for updating the created 						tax.
         10) uploadFileName       	- The name of the file to be uploaded as the attachment in creating a receipt.
         11) updatedFile          	- The name of the file to be uploaded as the attachment in updating a receipt.
-		12)	projectName			 	- A valid string as the new project name.
-		13) projectBillMethod	 	- A method of billing for the project. Always use 'task-rate' for this.
-		14) projectNameOptional  	- A valid string as the new project name. Use a different name than that is used for 'projectBillMethod'.
-		15) projectRate          	- A valid integer as the billing rate for the project.
-		16) projectDescription   	- A valid string to describe the project.
-		17) projectHourBudget	 	- A valid integer as the hourly budget for the project.
-		18) timeEntryTaskId		 	- Use a valid task Id that was obtained from step 4 e).
-		19) timeEntryHours		 	- A valid integer as the number of hours of the timeEntry.
-		20) timeEntryNote			- A valid string as the description for the timeEntry.
-		21) timeEntryDate			- A valid date in the format of YYYY-MM-DD  e.g:-2015-05-10.
-		22) timeEntryPage		 	- A valid integer as the number of the time entry page to be retrieved. Always use '1' for this.
-		23) timeEntryPerPage	 	- A valid integer as on how many records to be retrieved in one page when retrieving time entry records. Always use a value greater than 2.
-		24) timeEntryDateFrom	 	- A valid date in the format of YYYY-MM-DD  e.g:-2015-05-10.
-		25) timeEntryTaskIdUpdated	- Use a valid task Id that was obtained from step 4 e).Use a different value than that is used for 'timeEntryTaskId'.
-		26) timeEntryHoursUpdated	- A valid integer as the number of hours of the timeEntry. Use a different value than that is used for 'timeEntryHours'.
-		27) timeEntryNoteUpdated	- A valid string as the description for the timeEntry. Use a different value than that is used for 'timeEntryNote'.
-		28) timeEntryDateUpdated 	- A valid date in the format of YYYY-MM-DD  e.g:-2015-05-10. Use a different date than that is used for 'timeEntryDate'.
+	12)	projectName		- A valid string as the new project name.
+	13) projectBillMethod	 	- A method of billing for the project. Always use 'task-rate' for this.
+	14) projectNameOptional  	- A valid string as the new project name. Use a different name than that is used for 						'projectBillMethod'.
+	15) projectRate          	- A valid integer as the billing rate for the project.
+	16) projectDescription   	- A valid string to describe the project.
+	17) projectHourBudget	 	- A valid integer as the hourly budget for the project.
+	18) timeEntryTaskId		- Use a valid task Id that was obtained from step 4 e).
+	19) timeEntryHours		- A valid integer as the number of hours of the timeEntry.
+	20) timeEntryNote		- A valid string as the description for the timeEntry.
+	21) timeEntryDate		- A valid date in the format of YYYY-MM-DD  e.g:-2015-05-10.
+	22) timeEntryPage		- A valid integer as the number of the time entry page to be retrieved. Always use '1' 					for this.
+	23) timeEntryPerPage	 	- A valid integer as on how many records to be retrieved in one page when retrieving 						time entry records. Always use a value greater than 2.
+	24) timeEntryDateFrom	 	- A valid date in the format of YYYY-MM-DD  e.g:-2015-05-10.
+	25) timeEntryTaskIdUpdated	- Use a valid task Id that was obtained from step 4 e).Use a different value than that 					is used for 'timeEntryTaskId'.
+	26) timeEntryHoursUpdated	- A valid integer as the number of hours of the timeEntry. Use a different value than 						that is used for 'timeEntryHours'.
+	27) timeEntryNoteUpdated	- A valid string as the description for the timeEntry. Use a different value than that 					is used for 'timeEntryNote'.
+	28) timeEntryDateUpdated 	- A valid date in the format of YYYY-MM-DD  e.g:-2015-05-10. Use a different date than 					that is used for 'timeEntryDate'.
 
-		NOTE:- taxName,taxNameOptional,taxNameUpdated values should be changed before executing the integration test each time. 
+	NOTE:- taxName,taxNameOptional,taxNameUpdated values should be changed before executing the integration test each time. 
 
 
  5. Navigate to "<ESB_CONNECTORS_HOME>" and run the following command.
