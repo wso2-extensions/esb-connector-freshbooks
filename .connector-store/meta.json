@@ -4,7 +4,7 @@
     "category": "Billing and Accounting",
     "documentationUrl": "https://docs.wso2.com/display/ESBCONNECTORS/FreshBooks+Connector",
     "description": "The FreshBooks connector allows you to access the FreshBooks API through WSO2 ESB. FreshBooks is a billing system that helps to generate invoices based on the service/application. The FreshBooks API is an interface for accessing the FreshBooks account data using HTTP and XML.",
-    "status": "Unsupported",
+    "status": "Active",
     "labels": [
         "connector"
     ],
